@@ -1,3 +1,32 @@
 {
-    "products":[]
+  "products": [
+    {
+      "id": 1,
+      "name": "S24",
+      "brand": "samsung",
+      "img": "https://www.technolife.ir/image/color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png",
+      "price": "150$"
+    },
+    {
+      "id": 2,
+      "name": "iphone 13",
+      "brand": "apple",
+      "img": "https://www.technolife.ir/image/color_image_TLP-4993_006cf0_eee8db95-13f0-4987-924a-9e69366834ba.png",
+      "price": "350$"
+    },
+    {
+      "id": 3,
+      "name": "iphone 15",
+      "brand": "apple",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/641397e79f04500b85460b8f/Apple--iPhone-15--iPhone-15-Pro-Max--iPhone-15-Pro--iPhone-15-Pro-design--iPhone-15/0x0.jpg?format=jpg&crop=923,692,x364,y0,safe&width=960",
+      "price": "600$"
+    },
+    {
+      "id": 4,
+      "name": "iphone 16",
+      "brand": "apple",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/641397e79f04500b85460b8f/Apple--iPhone-15--iPhone-15-Pro-Max--iPhone-15-Pro--iPhone-15-Pro-design--iPhone-15/0x0.jpg?format=jpg&crop=923,692,x364,y0,safe&width=960",
+      "price": "600$"
+    }
+  ]
 }
