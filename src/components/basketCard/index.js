@@ -1,16 +1,6 @@
-import { addToCart } from '../../api/setData';
-import { Button } from '../kit/button';
 import { El } from '../shared/El';
 
-export const Card = (data) => {
-  const addToCartHandler = () => {
-    addToCart({
-      name: data.name,
-      price: data.price,
-      img: data.img,
-    });
-  };
-
+export const BasketCard = (data) => {
   return El({
     element: 'div',
     className: 'flex justify-between items-center border-2 rounded-md p-4',
@@ -26,11 +16,6 @@ export const Card = (data) => {
           El({
             element: 'span',
             innerText: `Price: ${data.price}`,
-          }),
-          Button({
-            text: 'Add to cart',
-            className: 'bg-blue-300 text-gray-600 w-fit',
-            onClick: addToCartHandler,
           }),
         ],
       }),
