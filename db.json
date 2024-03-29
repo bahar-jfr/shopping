@@ -1,32 +1,75 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "S24",
       "brand": "samsung",
       "img": "https://www.technolife.ir/image/color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png",
       "price": "150$"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "iphone 13",
       "brand": "apple",
       "img": "https://www.technolife.ir/image/color_image_TLP-4993_006cf0_eee8db95-13f0-4987-924a-9e69366834ba.png",
       "price": "350$"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "iphone 15",
       "brand": "apple",
       "img": "https://imageio.forbes.com/specials-images/imageserve/641397e79f04500b85460b8f/Apple--iPhone-15--iPhone-15-Pro-Max--iPhone-15-Pro--iPhone-15-Pro-design--iPhone-15/0x0.jpg?format=jpg&crop=923,692,x364,y0,safe&width=960",
       "price": "600$"
     },
     {
-      "id": 4,
-      "name": "iphone 16",
-      "brand": "apple",
-      "img": "https://imageio.forbes.com/specials-images/imageserve/641397e79f04500b85460b8f/Apple--iPhone-15--iPhone-15-Pro-Max--iPhone-15-Pro--iPhone-15-Pro-design--iPhone-15/0x0.jpg?format=jpg&crop=923,692,x364,y0,safe&width=960",
-      "price": "600$"
+      "id": "5",
+      "name": "13T",
+      "brand": "Xiaomi",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/bc4d60d6ba16a346982161c5b37e76d947432468_1697441974.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "price": "550$"
+    },
+    {
+      "id": "6",
+      "name": "Redmi Note 13 Pro Plus 5G",
+      "brand": "Xiaomi",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/8bcbe8c1a392d66add16bf9adf4e58f1066d4df1_1708515874.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "price": "650$"
+    },
+    {
+      "id": "7",
+      "name": "Galaxy A54 5G",
+      "brand": "samsung",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/f1c52ab36a753464bb6a17919f6b3f781acc44b5_1684135768.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "price": "400$"
+    },
+    {
+      "id": "8",
+      "name": "Galaxy S23 Ultra",
+      "brand": "samsung",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/8926fb2c7090b9b7862f6e56481677fe5dc08168_1675770987.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "price": "750$"
+    },
+    {
+      "id": "9",
+      "name": "Galaxy Z Fold4",
+      "brand": "samsung",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/f39d5c508a5f864af650d26e773f317016a8b427_1692010584.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "price": "800$"
+    },
+    {
+      "id": "10",
+      "name": "Galaxy Z Flip5",
+      "brand": "samsung",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/98f5967d3b11b4069c7a89d9608fac880f4a24dc_1690809479.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "price": "850$"
+    }
+  ],
+  "orders": [
+    {
+      "id": "cac5",
+      "name": "Galaxy S23 Ultra",
+      "price": "750$",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/8926fb2c7090b9b7862f6e56481677fe5dc08168_1675770987.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
     }
   ]
 }
