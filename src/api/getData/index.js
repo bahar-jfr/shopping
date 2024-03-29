@@ -7,8 +7,8 @@ import { BASE_URL } from '../const';
 //   return data;
 // };
 
-export const getProducts = async () => {
-  const response = await axios.get(`${BASE_URL}/products`);
+export const getProducts = async (page = 1) => {
+  const response = await axios.get(`${BASE_URL}/products?_page=${page}&_per_page=2`);
   return response.data;
 };
 
