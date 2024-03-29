@@ -25,12 +25,12 @@ export const Cart = () => {
       children: [
         El({
           element: 'div',
-          className: 'grid grid-cols-3 gap-6 ',
+          className: 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ',
           children: data.map((item) => BasketCard(item)),
         }),
         Button({
           text: 'Home',
-          className: 'bg-green-500 w-24',
+          className: 'bg-green-500 w-24 mt-4 hover:bg-green-600',
           onClick: navigateToHomeHandler,
         }),
       ],

@@ -13,11 +13,11 @@ export const Card = (data) => {
 
   return El({
     element: 'div',
-    className: 'flex justify-between items-center border-2 rounded-md p-4',
+    className: 'flex justify-between items-center border-2 rounded-md p-4 hover:shadow-md',
     children: [
       El({
         element: 'div',
-        className: 'flex flex-col  gap-4',
+        className: 'flex flex-col justify-between gap-4 ',
         children: [
           El({
             element: 'h4',
@@ -29,7 +29,7 @@ export const Card = (data) => {
           }),
           Button({
             text: 'Add to cart',
-            className: 'bg-blue-300 text-gray-600 w-fit',
+            className: 'bg-blue-300 hover:bg-blue-400 text-gray-600 w-fit',
             onClick: addToCartHandler,
           }),
         ],

@@ -23,7 +23,7 @@
     },
     {
       "id": "5",
-      "name": "13T"  ,
+      "name": "13T",
       "brand": "Xiaomi",
       "img": "https://dkstatics-public.digikala.com/digikala-products/bc4d60d6ba16a346982161c5b37e76d947432468_1697441974.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
       "price": "550$"
@@ -66,16 +66,16 @@
   ],
   "orders": [
     {
-      "id": "cfe6",
+      "id": "fd09",
       "name": "S24",
       "price": "150$",
       "img": "https://www.technolife.ir/image/color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png"
     },
     {
-      "id": "1b4a",
-      "name": "iphone 13",
-      "price": "350$",
-      "img": "https://www.technolife.ir/image/color_image_TLP-4993_006cf0_eee8db95-13f0-4987-924a-9e69366834ba.png"
+      "id": "4888",
+      "name": "Redmi Note 13 Pro Plus 5G",
+      "price": "650$",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/8bcbe8c1a392d66add16bf9adf4e58f1066d4df1_1708515874.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90"
     }
   ]
 }
