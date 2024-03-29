@@ -5,6 +5,7 @@ import { renderProducts } from "../components/pages/products/renderProducts";
 import { El } from "../components/shared/El";
 import { Router } from "../router";
 import { Cart_Route } from "../router/routes";
+import { debounce } from "../utils";
 // console.log(data);
 
 let currentPage = 1;
@@ -15,6 +16,14 @@ export const Products = () => {
     Router().navigate(Cart_Route);
   };
 
+  const searchProduct = (event) => {
+    const container = document.querySelector("#productContainer");
+    container.innerHTML = "loading...";
+    currentPage = 1;
+    document.getElementById("page").innerHTML = currentPage;
+    debounce(() => renderProducts(currentPage, event.target.value), 1000);
+  };
+
   const prevPage = () => {
     if (currentPage === 1) return;
     document.getElementById("page").innerHTML = --currentPage;
@@ -23,7 +32,8 @@ export const Products = () => {
     renderProducts(currentPage);
   };
   const nextPage = () => {
-    if (currentPage >= totalPage.pages) return;
+    if (currentPage >= totalPage.totalPage) return;
+
     document.getElementById("page").innerHTML = ++currentPage;
     const container = document.querySelector("#productContainer");
     container.innerHTML = "loading...";
@@ -34,6 +44,14 @@ export const Products = () => {
   return El({
     element: "div",
     children: [
+      El({
+        element: "input",
+        className: "border p-2",
+        placeholder: "search",
+        onkeyup: searchProduct,
+        id: "input",
+      }),
+
       El({
         element: "div",
         innerText: "Loading...",

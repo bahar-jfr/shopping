@@ -5,10 +5,8 @@ import { Card } from "../../../card";
 import { Button } from "../../../kit/button";
 import { El } from "../../../shared/El";
 
-export const renderProducts = (page) => {
-
-
-    getProducts(page)
+export const renderProducts = (page, searchItem = "") => {
+  getProducts(page, searchItem)
     .then((data) => {
       const container = document.querySelector("#productContainer");
       container.innerHTML = "";
@@ -21,8 +19,6 @@ export const renderProducts = (page) => {
             className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ",
             children: data.data.map((item) => Card(item)),
           }),
-
-
         ],
       });
       container.appendChild(productDiv);
@@ -31,7 +27,4 @@ export const renderProducts = (page) => {
       const container = document.querySelector("#productContainer");
       container.innerHTML = "something went wrong";
     });
-}
-
-
-
+};

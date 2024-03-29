@@ -66,16 +66,10 @@
   ],
   "orders": [
     {
-      "id": "8690",
-      "name": "S24",
-      "price": "150$",
-      "img": "https://www.technolife.ir/image/color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png"
-    },
-    {
-      "id": "a7bd",
-      "name": "iphone 13",
-      "price": "350$",
-      "img": "https://www.technolife.ir/image/color_image_TLP-4993_006cf0_eee8db95-13f0-4987-924a-9e69366834ba.png"
+      "id": "cac5",
+      "name": "Galaxy S23 Ultra",
+      "price": "750$",
+      "img": "https://dkstatics-public.digikala.com/digikala-products/8926fb2c7090b9b7862f6e56481677fe5dc08168_1675770987.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
     }
   ]
 }

@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { BASE_URL } from '../const';
+import axios from "axios";
+import { BASE_URL } from "../const";
 
 // export const getProducts = async () => {
 //   const response = await fetch(`${BASE_URL}/products`);
@@ -7,9 +7,18 @@ import { BASE_URL } from '../const';
 //   return data;
 // };
 
-export const getProducts = async (page = 1) => {
-  const response = await axios.get(`${BASE_URL}/products?_page=${page}&_per_page=2`);
-  return response.data;
+const perPage = 2;
+
+export const getProducts = async (page = 1, findItem = "") => {
+  const response = await axios.get(
+    `${BASE_URL}/products?_page=${page}&_limit=${perPage}&&name_like=${findItem}`
+  );
+  console.log(response.headers["x-total-count"]);
+  // return response.data;
+  return {
+    data: response.data,
+    totalPage: Math.ceil(response.headers["x-total-count"] / perPage),
+  };
 };
 
 export const getOrders = async () => {
